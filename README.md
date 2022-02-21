@@ -2,7 +2,7 @@
 
 A package to easily make use of [Blade Shopify Icons](https://www.npmjs.com/package/@shopify/polaris-icons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](https://polaris-icons.shopify.com/).
+For a full list of available icons see [the SVG resource](https://polaris-icons.shopify.com/).
 
 ## Requirements
 

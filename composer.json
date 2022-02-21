@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Eduard\\BladeShopifyIcons\\": "src"
+            "Eduard9969\\BladeShopifyIcons\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
+            "Eduard9969\\BladeShopifyIcons\\Tests\\": "tests"
         }
     },
     "extra": {
