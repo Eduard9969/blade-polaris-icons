@@ -23,7 +23,7 @@ final class BladeShopifyIconsServiceProvider extends ServiceProvider
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/blade-shopify-icons.php', 'blade-shopify-icons');
+        $this->mergeConfigFrom(__DIR__.'/../config/blade-shopify-icons.php', 'blade-shopify-icons');
     }
 
     public function boot(): void
@@ -34,7 +34,7 @@ final class BladeShopifyIconsServiceProvider extends ServiceProvider
             ], 'blade-shopify-icons');
 
             $this->publishes([
-                __DIR__ . '/../config/blade-shopify-icons.php' => $this->app->configPath('blade-shopify-icons.php'),
+                __DIR__.'/../config/blade-shopify-icons.php' => $this->app->configPath('blade-shopify-icons.php'),
             ], 'blade-shopify-icons-config');
         }
     }

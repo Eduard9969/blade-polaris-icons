@@ -4,7 +4,6 @@ use Symfony\Component\Finder\SplFileInfo;
 use Codeat3\BladeIconGeneration\IconProcessor;
 
 $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFileInfo $file) {
-
     // perform generic optimizations
     $iconProcessor = new IconProcessor($tempFilepath, $iconSet, $file);
     $iconProcessor
@@ -13,7 +12,17 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
         ->postOptimizationAsString(function ($svgLine) {
             return str_replace('fill:#000000', 'fill:currentColor', $svgLine);
         })
-        ->save();
+        ->save(function ($name, $file) {
+            $callable = function ($matches) {
+                return preg_replace(
+                    '/(?<! )(?<!^)[A-Z]/',
+                    '-$0',
+                    "{$matches[2]}{$matches[1]}"
+                );
+            };
+
+            return preg_replace_callback('/(.*)(Major|Minor)/', $callable , $name);
+        });
 };
 
 return [
