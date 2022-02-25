@@ -1,8 +1,8 @@
 {
-    "name": "eduard9969/blade-shopify-icons",
-    "description": "A package to easily make use of Shopify Icons in your Laravel Blade views.",
-    "keywords": ["Blade", "Shopify", "Laravel"],
-    "homepage": "https://github.com/Eduard9969/blade-shopify-icons",
+    "name": "eduard9969/blade-polaris-icons",
+    "description": "A package to easily make use of Polaris Icons in your Laravel Blade views.",
+    "keywords": ["Blade", "Shopify", "Polaris", "Laravel"],
+    "homepage": "https://github.com/Eduard9969/blade-polaris-icons",
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Eduard9969\\BladeShopifyIcons\\": "src"
+            "Eduard9969\\BladePolarisIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Eduard9969\\BladeShopifyIcons\\BladeShopifyIconsServiceProvider"
+                "Eduard9969\\BladePolarisIcons\\BladePolarisIconsServiceProvider"
             ]
         }
     },
