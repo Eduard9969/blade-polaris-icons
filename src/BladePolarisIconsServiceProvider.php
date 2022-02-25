@@ -23,7 +23,7 @@ final class BladePolarisIconsServiceProvider extends ServiceProvider
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/blade-polaris-icons.php', 'blade-polaris-icons');
+        $this->mergeConfigFrom(__DIR__.'/../config/blade-polaris-icons.php', 'blade-polaris-icons');
     }
 
     public function boot(): void
@@ -34,7 +34,7 @@ final class BladePolarisIconsServiceProvider extends ServiceProvider
             ], 'blade-polaris-icons');
 
             $this->publishes([
-                __DIR__ . '/../config/blade-polaris-icons.php' => $this->app->configPath('blade-polaris-icons.php'),
+                __DIR__.'/../config/blade-polaris-icons.php' => $this->app->configPath('blade-polaris-icons.php'),
             ], 'blade-polaris-icons-config');
         }
     }
