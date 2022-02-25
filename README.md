@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/packagist/dt/eduard9969/blade-polaris-icons" alt="Total Downloads">
 </a>
 
-A package to easily make use of [Blade Polaris Icons](https://www.npmjs.com/package/@shopify/polaris-icons) in your Laravel Blade views.
+A package to easily make use of [Polaris Icons](https://www.npmjs.com/package/@shopify/polaris-icons) in your Laravel Blade views.
 
 For a full list of available icons see the [SVG directory](https://github.com/Eduard9969/blade-polaris-icons/blob/main/resources/svg) or preview them at [shopify.com](https://polaris-icons.shopify.com/). Polaris Icons are originally developed by [Shopify Team](https://shopify.dev/).
 
