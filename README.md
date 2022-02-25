@@ -2,7 +2,7 @@
 
 A package to easily make use of [Blade Shopify Icons](https://www.npmjs.com/package/@shopify/polaris-icons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG resource](https://polaris-icons.shopify.com/).
+For a full list of available icons see the [SVG directory](https://github.com/Eduard9969/blade-shopify-icons/blob/main/resources/svg) or preview them at [shopify.com](https://polaris-icons.shopify.com/). Shopify Icons are originally developed by [Shopify Team](https://shopify.dev/).
 
 ## Requirements
 
@@ -33,22 +33,27 @@ php artisan vendor:publish --tag=blade-shopify-icons-config
 
 ## Usage
 
+Icon name skeleton:
+```blade
+{major|minor}-{icon-name}.svg
+```
+
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-shopify-activities/>
+<x-shi-major-activities/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-shopify-activities class="w-6 h-6 text-gray-500"/>
+<x-shi-major-activities class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-shopify-activities style="color: #555"/>
+<x-shi-major-activities style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -62,7 +67,7 @@ php artisan vendor:publish --tag=blade-shopify-icons --force
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-shopify-icons/activities.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-shopify-icons/major-activities.svg') }}" width="10" height="10"/>
 ```
 
 ## Changelog
