@@ -1,5 +1,18 @@
 # Blade Shopify Icons
 
+<a href="https://github.com/eduard9969/blade-shopify-icons/actions?query=workflow%3ATests">
+    <img src="https://github.com/eduard9969/blade-shopify-icons/workflows/Tests/badge.svg" alt="Tests">
+</a>
+<a href="https://github.styleci.io/repos/462019071">
+    <img src="https://github.styleci.io/repos/462019071/shield?style=flat" alt="Code Style">
+</a>
+<a href="https://packagist.org/packages/eduard9969/blade-shopify-icons">
+    <img src="https://img.shields.io/packagist/v/eduard9969/blade-shopify-icons" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/eduard9969/blade-shopify-icons">
+    <img src="https://img.shields.io/packagist/dt/eduard9969/blade-shopify-icons" alt="Total Downloads">
+</a>
+
 A package to easily make use of [Blade Shopify Icons](https://www.npmjs.com/package/@shopify/polaris-icons) in your Laravel Blade views.
 
 For a full list of available icons see the [SVG directory](https://github.com/Eduard9969/blade-shopify-icons/blob/main/resources/svg) or preview them at [shopify.com](https://polaris-icons.shopify.com/). Shopify Icons are originally developed by [Shopify Team](https://shopify.dev/).

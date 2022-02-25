@@ -1,7 +1,7 @@
 <?php
 
-use Symfony\Component\Finder\SplFileInfo;
 use Codeat3\BladeIconGeneration\IconProcessor;
+use Symfony\Component\Finder\SplFileInfo;
 
 $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFileInfo $file) {
     // perform generic optimizations
@@ -17,11 +17,11 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
                 return preg_replace(
                     '/(?<! )(?<!^)[A-Z]/',
                     '-$0',
-                    "{$matches[2]}{$matches[1]}"
+                    "{$matches[2]}{$matches[1]}",
                 );
             };
 
-            return preg_replace_callback('/(.*)(Major|Minor)/', $callable , $name);
+            return preg_replace_callback('/(.*)(Major|Minor)/', $callable, $name);
         });
 };
 
