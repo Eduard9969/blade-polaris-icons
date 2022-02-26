@@ -33,6 +33,8 @@ return [
 
         'safe' => false,
 
+        'is-solid' => true,
+
         'after' => $svgNormalization,
     ],
 ];
