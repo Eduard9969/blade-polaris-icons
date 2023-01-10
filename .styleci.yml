@@ -2,3 +2,6 @@ preset: laravel
 enabled:
   - heredoc_indentation
   - trailing_comma_in_multiline_call
+  - concat_with_spaces
+disabled:
+  - concat_without_spaces
