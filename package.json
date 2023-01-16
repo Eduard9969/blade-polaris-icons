@@ -1,6 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "@shopify/polaris-icons": "^6.6.0"
-  }
-}

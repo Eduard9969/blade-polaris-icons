@@ -27,7 +27,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
 
 return [
     [
-        'source' => __DIR__ . '/../node_modules/@shopify/polaris-icons/dist/svg',
+        'source' => __DIR__ . '/../dist/polaris-icons/icons',
 
         'destination' => __DIR__ . '/../resources/svg',
 
