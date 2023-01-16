@@ -37,7 +37,7 @@ jobs:
 
       - name: Clear dist files
         run: |
-          rm -r `find ./dist/polaris-icons/icons/* ! -name "*.svg"`
+          rm -r `find ./dist/polaris-icons/icons/* ! -name "*.svg" -type f`
 
       - id: latest-commit
         name: Get the latest commit
