@@ -2,6 +2,18 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.2.0 - 2023-01-16
+
+### What's Changed
+
+- Fix SVG fill attribute by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/16
+
+### New Contributors
+
+- @github-actions made their first contribution in https://github.com/Eduard9969/blade-polaris-icons/pull/15
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/1.1.2...1.2.0
+
 ## 1.1.2 - 2023-01-10
 
 ### What's Changed
