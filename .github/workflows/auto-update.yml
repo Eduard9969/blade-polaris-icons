@@ -35,6 +35,10 @@ jobs:
           ref: ${{ env.BRANCH }}
           path: ./dist
 
+      - name: Clear dist files
+        run: |
+          rm -r `find ./dist/polaris-icons/icons/* ! -name "*.svg"`
+
       - id: latest-commit
         name: Get the latest commit
         run: |
