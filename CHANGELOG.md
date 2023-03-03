@@ -2,6 +2,14 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.3.1 - 2023-03-03
+
+### What's Changed
+
+- Update icon generate by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/24
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/1.3.0...1.3.1
+
 ## 1.3.0 - 2023-02-24
 
 ### What's Changed
