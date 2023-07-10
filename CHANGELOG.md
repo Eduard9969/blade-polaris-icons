@@ -2,6 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.3.9 - 2023-07-10
+
+### What's Changed
+
+- update icons with the latest commit vf93af14e401147bfccccdedc317bd42e2776a386 by @github-actions in https://github.com/Eduard9969/blade-polaris-icons/pull/40
+- update icons with the latest commit vd16b724f514bbe5f29215799dfa37dd1635c48df by @github-actions in https://github.com/Eduard9969/blade-polaris-icons/pull/41
+- update icons with the latest commit v50ad683b5def601b04d7bf40b34734c9a6917291 by @github-actions in https://github.com/Eduard9969/blade-polaris-icons/pull/42
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/1.3.8...1.3.9
+
 ## 1.3.8 - 2023-06-12
 
 ### What's Changed
