@@ -13,15 +13,9 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
             return preg_replace('(fill="([^"]+)")', 'fill="currentColor"', $svgLine);
         })
         ->save(function ($name, $file) {
-            $callable = function ($matches) {
-                return preg_replace(
-                    '/(?<! )(?<!^)[A-Z]/',
-                    '-$0',
-                    "{$matches[2]}{$matches[1]}",
-                );
-            };
-
-            return preg_replace_callback('/(.*)(Major|Minor)/', $callable, $name);
+            return mb_strtolower(
+                preg_replace('/([^A-Z-])([A-Z])/', '$1-$2', $name)
+            );
         });
 };
 
