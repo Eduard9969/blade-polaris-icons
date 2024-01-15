@@ -14,7 +14,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
         })
         ->save(function ($name, $file) {
             return mb_strtolower(
-                preg_replace('/([^A-Z-])([A-Z])/', '$1-$2', $name)
+                preg_replace('/([^A-Z-])([A-Z])/', '$1-$2', $name),
             );
         });
 };
