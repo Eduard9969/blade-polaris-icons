@@ -2,6 +2,14 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.6.1 - 2024-01-15
+
+### What's Changed
+
+* Update readme by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/73
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/1.6.0...1.6.1
+
 ## 1.6.0 - 2024-01-15
 
 ### What's Changed
