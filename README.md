@@ -48,25 +48,25 @@ php artisan vendor:publish --tag=blade-polaris-icons-config
 
 Icon name skeleton:
 ```blade
-{major|minor}-{icon-name}.svg
+{icon-name}-icon.svg
 ```
 
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-polaris-major-activities/>
+<x-polaris-cart-abandoned-icon/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-polaris-major-activities class="w-6 h-6 text-gray-500"/>
+<x-polaris-cart-abandoned-icon class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-polaris-major-activities style="color: #555"/>
+<x-polaris-cart-abandoned-icon style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -80,7 +80,7 @@ php artisan vendor:publish --tag=blade-polaris-icons --force
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-polaris-icons/major-activities.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-polaris-icons/cart-abandoned-icon.svg') }}" width="10" height="10"/>
 ```
 
 ## Changelog
