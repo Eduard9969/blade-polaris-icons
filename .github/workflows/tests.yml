@@ -42,7 +42,7 @@ jobs:
           - php: 8.2
             laravel: 9
           - php: 8.2
-            laravel: 11
+            laravel: 10
             
           - php: 8.3
             laravel: 7
