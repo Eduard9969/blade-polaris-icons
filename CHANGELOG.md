@@ -2,6 +2,19 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 2.5.0 - 2024-04-04
+
+### What's Changed
+
+* update icons with the latest commit v0c2688491722fb598e4ed12c3c384cd98973f420 by @github-actions in https://github.com/Eduard9969/blade-polaris-icons/pull/85
+* Version bump for compatibility with Laravel 11 by @denissceluiko in https://github.com/Eduard9969/blade-polaris-icons/pull/86
+
+### New Contributors
+
+* @denissceluiko made their first contribution in https://github.com/Eduard9969/blade-polaris-icons/pull/86
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/2.4.1...2.5.0
+
 ## 2.4.1 - 2024-03-26
 
 ### What's Changed
