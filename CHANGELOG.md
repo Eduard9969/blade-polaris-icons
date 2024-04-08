@@ -2,6 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 2.6.0 - 2024-04-08
+
+### What's Changed
+
+* Update tests.yml by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/87
+* Update php-cs-fixer.yml by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/88
+* update icons with the latest commit ve2909baa94462c0f408964c213a92e1eadc50203 by @github-actions in https://github.com/Eduard9969/blade-polaris-icons/pull/89
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/2.5.0...2.6.0
+
 ## 2.5.0 - 2024-04-04
 
 ### What's Changed
