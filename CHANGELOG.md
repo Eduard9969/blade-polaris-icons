@@ -2,6 +2,14 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 2.8.0 - 2025-02-26
+
+### What's Changed
+
+* Support Laravel 12 by @Eduard9969 in https://github.com/Eduard9969/blade-polaris-icons/pull/122
+
+**Full Changelog**: https://github.com/Eduard9969/blade-polaris-icons/compare/2.7.0...2.8.0
+
 ## 2.7.0 - 2024-07-24
 
 ### What's Changed
