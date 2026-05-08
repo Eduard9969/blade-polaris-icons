@@ -10,8 +10,7 @@ use Orchestra\Testbench\TestCase;
 
 class CompilesIconsTest extends TestCase
 {
-    /** @test */
-    public function it_compiles_a_single_anonymous_component()
+    public function test_compiles_a_single_anonymous_component()
     {
         $result = svg('polaris-cart-abandoned-icon')->toHtml();
 
@@ -23,8 +22,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
-    public function it_can_add_classes_to_icons()
+    public function test_can_add_classes_to_icons()
     {
         $result = svg('polaris-cart-abandoned-icon', 'w-6 h-6 text-gray-500')->toHtml();
 
@@ -35,8 +33,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
-    public function it_can_add_styles_to_icons()
+    public function test_can_add_styles_to_icons()
     {
         $result = svg('polaris-cart-abandoned-icon', ['style' => 'color: #555'])->toHtml();
 
